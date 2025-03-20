@@ -13,7 +13,7 @@ Código:
 #include <Wire.h>
 void setup()
 {
-Wire.begin();
+Wire.begin(18,17);
 Serial.begin(115200);
 while (!Serial);
 Serial.println("\nI2C Scanner");
